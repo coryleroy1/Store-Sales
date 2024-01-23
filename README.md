@@ -3,7 +3,7 @@ Ecuadorian store sales predictor
 
 # Authors:
 - Cory LeRoy
-- Will Early
+- Will Earley
 - Alec Bothwell
 
 # Directory
