@@ -25,7 +25,7 @@ Every year millions of pounds of food are wasted to do incorrect inventory predi
 5. documents - Important explanatory documents are in this folder.
 
 # Installing and running the project
-The process of running code for this project is pretty straightforward. Simply download the notebooks and dataset and run them locally on your machine. 
+Create virtual environment and install requirements from requiremetns.txt found in documents.
 
 # Credits
 We used a variaty of resources to help us learn more about time series forecasting and the associated models, they can be found below.
