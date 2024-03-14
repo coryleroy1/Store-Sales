@@ -46,7 +46,7 @@ Every year millions of pounds of food are wasted to do incorrect inventory predi
     - data and model documentation
 
 # Installing and running the project
-1. download the train.csv file from ____, place it in the data > raw folder. the rest of the data files should already be in there
+1. download the train.csv file from https://drive.google.com/drive/folders/1jw7e5UprTug09C0tOb73oATMqk16qqKi, place it in the data > raw folder. the rest of the data files should already be in there
 2. Create virtual environment and install requirements from requiremetns.txt found in the main directory. Then, activate the virtual environment
 3. Run the Feature Engineering jupyter notebook. This creates pickle files for the cleaned train, validation, and test dataset in the data\processed folder
 4. Move to the models folder and run FBProphetFinal, OLS, SARIMA, XGBoost. Models may take up to 20 min to run
