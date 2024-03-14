@@ -47,7 +47,12 @@ Every year millions of pounds of food are wasted to do incorrect inventory predi
 
 # Installing and running the project
 1. download the train.csv file from https://drive.google.com/drive/folders/1jw7e5UprTug09C0tOb73oATMqk16qqKi, place it in the data > raw folder. the rest of the data files should already be in there
-2. Create virtual environment and install requirements from requiremetns.txt found in the main directory. Then, activate the virtual environment
+2. Create virtual environment and install requirements from requiremetns.txt found in the main directory. Then, activate the virtual environment. To do these steps from command prompt:
+    - Create a new virtual inv: python -m venv nameofenv
+    - activate new virtual env: nameofvenv\Scripts\activate
+    - Install libraries from requirements doc. make sure you are in the main store sales folder. pip install -r requirements.txt
+    
+
 3. Run the Feature Engineering jupyter notebook. This creates pickle files for the cleaned train, validation, and test dataset in the data\processed folder
 4. Move to the models folder and run FBProphetFinal, OLS, SARIMA, XGBoost. Models may take up to 20 min to run
 
